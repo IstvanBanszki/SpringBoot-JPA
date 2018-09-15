@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/animalshelter?useUnicode=yes&characterEncoding=UTF-8&verifyServerCertificate=false&useSSL=false&requireSSL=false
+    username: root
+    password:
+server:
+  port: 8080
